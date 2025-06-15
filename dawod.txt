@@ -2,25 +2,45 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <title>تأشيرات السفر</title>
+  <title>استخراج تأشيرات السفر</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body { background: #f3f3f3; font-family: sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #333; font-size: 24px; }
-    p { color: #666; margin: 20px 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      text-align: center;
+      padding: 50px;
+      direction: rtl;
+    }
+    h1 {
+      color: #222;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+      color: #444;
+      margin: 20px 0;
+    }
     a {
+      display: inline-block;
       background-color: #25D366;
       color: white;
       padding: 15px 30px;
+      font-size: 20px;
       text-decoration: none;
-      font-size: 18px;
-      border-radius: 5px;
+      border-radius: 8px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>استخراج تأشيرات السفر</h1>
-  <p>خدمة سريعة من الرياض لأكثر من 20 دولة</p>
-  <a href="https://wa.me/966507460919" target="_blank">تواصل عبر واتساب</a>
+
+  <h1>احصل على تأشيرتك بسهولة</h1>
+  <p>خدمات سريعة واحترافية لاستخراج تأشيرات السفر من السعودية لأوروبا وبريطانيا وغيرها</p>
+
+  <a href="https://wa.me/966507460919" target="_blank">
+    تواصل معنا على واتساب
+  </a>
+
 </body>
 </html>
