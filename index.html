@@ -2,52 +2,63 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>حجوزات داوود - تأشيرات السفر</title>
+  <title>حجوزات داوود - استخراج تأشيرات</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      background-color: #e0f7fa;
-      font-family: Arial, sans-serif;
-      direction: rtl;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
       text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      min-height: 100vh;
       padding: 60px 20px;
     }
-    h1 {
-      color: #006064;
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    h2 {
-      color: #00796b;
-      font-size: 28px;
+
+    .logo {
+      width: 120px;
       margin-bottom: 20px;
     }
-    p {
-      font-size: 18px;
-      color: #333;
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
     }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
     .whatsapp-button {
-      margin-top: 30px;
       display: inline-block;
       background-color: #25d366;
       color: white;
-      padding: 14px 28px;
-      border-radius: 8px;
+      padding: 15px 30px;
+      border-radius: 10px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: 0.3s;
+      transition: 0.3s ease;
     }
+
     .whatsapp-button:hover {
       background-color: #1ebe5d;
     }
   </style>
 </head>
 <body>
-  <h1>حجوزات داوود</h1>
-  <h2>احجز تأشيرتك الآن بسهولة!</h2>
-  <p>خدمات سريعة واحترافية لاستخراج تأشيرات السفر من السعودية لأوروبا وبريطانيا ودول أخرى.</p>
-  <a class="whatsapp-button" href="https://wa.me/966507460919" target="_blank">تواصل معنا على واتساب</a>
+  <div class="overlay">
+    <img src="logo.png" alt="شعار حجوزات داوود" class="logo">
+    <h1>حجوزات داوود</h1>
+    <p>جاهز لاستخراج تأشيرتك؟ تواصل معنا مباشرة وسنقوم بكل شيء من أجلك!</p>
+    <a class="whatsapp-button" href="https://wa.me/966507460919" target="_blank">تواصل معنا على واتساب</a>
+  </div>
 </body>
 </html>
